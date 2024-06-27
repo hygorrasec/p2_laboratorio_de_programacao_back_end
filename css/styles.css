@@ -1,1 +1,89 @@
-body { font-family: Arial, sans-serif; background-color: #f0f0f0; margin: 0; padding: 0; } .container { width: 80%; margin: 20px auto; padding: 20px; background-color: #fff; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); } h1 { text-align: center; margin-bottom: 20px; } table { width: 100%; border-collapse: collapse; margin-bottom: 20px; } table, th, td { border: 1px solid #ddd; } th, td { padding: 8px; text-align: left; } th { background-color: #f2f2f2; } a { text-decoration: none; color: #3498db; } a:hover { text-decoration: underline; } .form-container { max-width: 500px; margin: 0 auto; } form label { display: block; margin-top: 10px; } form input[type="text"], form input[type="submit"] { width: 100%; padding: 10px; margin-top: 5px; margin-bottom: 10px; box-sizing: border-box; } form input[type="submit"] { background-color: #3498db; color: #fff; border: none; cursor: pointer; } form input[type="submit"]:hover { background-color: #2980b9; } footer { text-align: center; padding: 20px; background-color: #f1f1f1; position: absolute; bottom: 0; width: 100%; }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input[type="text"],
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
